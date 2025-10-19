@@ -67,8 +67,8 @@ cd kvstore
 - Code quality and style
 
 ## Gradebot Result
-![Gradebot Screenshot](https://github.com/sowjanyateppali/kv_store/raw/main/images/Screenshot(593).png)
-![Gradebot Screenshot](https://github.com/sowjanyateppali/kv_store/raw/main/images/Screenshot(594).png)
+![Gradebot Screenshot](https://github.com/sowjanyateppali/kv-store/raw/main/images/gradebot_screenshot.png)
+
 
 Score: 94% – fully functional and persistent key-value store
 
