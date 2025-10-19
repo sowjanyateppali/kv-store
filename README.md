@@ -28,35 +28,35 @@ A simple persistent key-value store implemented in Python. Supports `SET`, `GET`
 
 ## Usage
 
-1. **Clone the repository**:
-```bash
-git clone https://github.com/sowjanyateppali/kvstore.git
-cd kvstore
-```
-2. **Run the key-value store**:
-   ```bash
-     python main.py
-   ```
-3. **Enter commands in the terminal**:
-   ```bash
-    SET key1 value1
-    GET key1
-    EXIT
-   ```
-    ##Project Structure
+  1. **Clone the repository**:
+  ```bash
+  git clone https://github.com/sowjanyateppali/kvstore.git
+  cd kvstore
+  ```
+  2. **Run the key-value store**:
     ```bash
-    Kv_Store/
-        ├─ main.py          # Main program implementing the key-value store
-        ├─ data.db          # Append-only database file (created automatically)
-        ├─ gradebot.exe     # Gradebot client for automated testing
-        ├─ README.md        # Project documentation
-
+    python main.py
+    ```
+  3. **Enter commands in the terminal**:
+    ```bash
+      SET key1 value1
+      GET key1
+      EXIT
+    ```
+##Project Structure
+  ```bash
+  Kv_Store/
+      ├─ main.py          # Main program implementing the key-value store
+      ├─ data.db          # Append-only database file (created automatically)
+      ├─ gradebot.exe     # Gradebot client for automated testing
+      ├─ README.md        # Project documentation
+      
    ```
 ## Testing with Gradebot:
-    **Run automated tests using Gradebot**:
-    ```bash
-      .\gradebot.exe project-1 --dir "." --run "python main.py"
-    ```
+    Run automated tests using Gradebot:
+        ```bash
+        .\gradebot.exe project-1 --dir "." --run "python main.py"
+      ```
     The grader checks:
 
 - Creation of data.db
