@@ -35,7 +35,7 @@ cd kvstore
 ```
 2. **Run the key-value store**:
    ```bash
-   python main.py
+     python main.py
    ```
 3. **Enter commands in the terminal**:
    ```bash
@@ -53,10 +53,10 @@ cd kvstore
 
    ```
 ## Testing with Gradebot:
-    Run automated tests using Gradebot:
-        ```bash
-        .\gradebot.exe project-1 --dir "." --run "python main.py"
-      ```
+    **Run automated tests using Gradebot**:
+    ```bash
+      .\gradebot.exe project-1 --dir "." --run "python main.py"
+    ```
     The grader checks:
 
 - Creation of data.db
